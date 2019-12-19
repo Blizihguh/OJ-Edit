@@ -1,0 +1,66 @@
+###11x11 (968)###################################
+clover			Clover
+wonderland		Icy Hideout
+nightflight		Night Flight
+practice		Practice Field
+pudding			Pudding Chase
+workshop 		Santa's Workshop
+wander			Space Wanderer
+tomomo			Tomomo's Abyss
+vortex			Vortex
+war				Warfare
+-----
+nightflight_co	Night Flight CO
+pudding_co		Pudding CO
+workshop_co		Santa's Workshop CO
+wander_co		Space Wanderer CO
+vortex_co		Vortex CO
+
+###12x12 (1152)###################################
+starship		Starship
+
+###13x10 (1040)###################################
+shipyard		Shipyard
+
+###13x12 (1248)###################################
+shipyard_co		Shipyard CO
+
+###13x13 (1352)###################################
+christmas		Christmas Miracle
+frost			Frost Cave
+lagoon			Lagoon Flight
+island			Treasure Island
+islandnight		Treasure Island (Night)
+oceandive		Ocean Dive
+-----
+cyberspace		Cyberspace
+lagoon2			Lagoon Flight CO
+island_co		Treasure Island CO
+islandnight_co	Treasure Island (Night) CO
+oceandive_co	Ocean Dive CO
+
+###14x14 (1568)###################################
+winter			White Winter
+
+###15x15 (1800)###################################
+farm			Farm
+highway			Highway Heist
+planet			Planet Earth
+sakura			Sakura Smackdown
+seal			Sealed Archive
+starcircuit		Star Circuit
+sunset			Sunset
+sweetheaven		Sweet Heaven
+training		Training Program
+forest			Witch Forest
+-----
+farm_co			Farm CO
+forest_co		Forest CO
+highway_co		Highway Heist CO
+planet_co		Planet Earth CO
+poppo			Poppo's Abyss
+sakura_co		Sakura Smackdown CO
+starcircuit_co	Star Circuit CO
+sunset2			Sunset CO
+training_co		Training Program CO
+

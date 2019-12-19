@@ -1,0 +1,28 @@
+Dependencies of OJ Edit:
+Pillow (pip install pillow)
+PyPNG (pip install pypng)
+Numpy (pip install numpy)
+
+New Maps:
+>fields.py: 
+	LoadSpecificFLDs(): Edit list of globals, fieldSlotTable, and customMapTable
+	LoadFLDs(): Edit fieldSlotTable, customMapTable
+>gui.py:
+	FLDtoPAK(): Edit graphicsList
+	SpecificFLDPak(): Edit list of globals, instantiate new global as tk.StringVar, set as "", add three new lines of code for the file select (in appropriate place), edit graphicsList
+
+New Tiles:
+>fields.py:
+	TurnArrayIntoPixelsWithPath(): Add index of new tiles to tileStringConversionTable; add new tile symbols and colors to palette
+	TurnArrayIntoPixels(): Add index of new tiles with corresponding colors to palette. This function is not currently used, but it's good to be safe
+	checkIfPixelInPalette(): Add index of new tiles with corresponding colors to palette.
+
+New Encryption Key:
+>textures.py:
+	CreatePNGFromDAT(): Edit key
+
+To build:
+setup.py build
+Remember to update the version number in the readme and setup.py!
+Remember to rebuild official files from the new update!
+Remember to replace Google Drive download link in the sidebar and post body, as well as adding the new zip as a file to GameBanana. Ideally do this before making the update changelog!

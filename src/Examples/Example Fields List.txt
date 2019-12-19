@@ -1,0 +1,16 @@
+Normal Mode:
+	Farm -> Ronin
+	Frost Cave -> Down the Drain
+	Highway Heist -> Gotham
+	Planet Earth -> Skatepark
+	Sealed Archive -> Whirlpool
+	Sunset -> Black Lagoon
+	Treasure Island -> Helix
+	Tomomo's Abyss -> Clover Beyblade
+	Witch Forest -> Roundabout
+
+Co-op Mode:
+	Farm Co-op -> Crossroad Co-op
+	Highway Heist Co-op -> Pigskin
+	Planet Earth Co-op -> Twister Co-op
+	Training Program Co-op -> Down the Drain Co-op
