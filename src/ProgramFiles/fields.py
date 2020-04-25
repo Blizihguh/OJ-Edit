@@ -292,7 +292,8 @@ def TurnArrayIntoPixelsWithPath(array):
 		28: "c", # New in Playground update
 		29: "d", # New in Playground update
 		30: "e", # New in ??? update
-		31: "f" # New in 5th Anniversary update
+		31: "f", # New in 5th Anniversary update
+		32: "g"  # New in Co-Op Update 2
 	}
 	palette = {
 		"A": (0x00,0x00,0x00), # Void +
@@ -326,7 +327,8 @@ def TurnArrayIntoPixelsWithPath(array):
 		"c": (0x00,0xc4,0x00), # Heal x2
 		"d": (0xff,0xb5,0x84), # Event (Blank Tile)
 		"e": (0xbe,0xff,0xe9), # ??? -- Tiles below added in 5th Anniversary update
-		"f": (0xb7,0x00,0x46) # Co-op Boss +
+		"f": (0xb7,0x00,0x46), # Co-op Boss +
+		"g": (0xff,0x99,0x66)  # Damage
 	}
 
 	pixelToTileArray = [] # One array value = one pixel; tile or movement flag encoded
@@ -529,7 +531,8 @@ def TurnArrayIntoPixels(array):
 		28: (0x00,0xc4,0x00),
 		29: (0xff,0xb5,0x84),
 		30: (0xbe,0xff,0xe9),
-		31: (0xb7,0x00,0x46)
+		31: (0xb7,0x00,0x46),
+		32: (0xff,0x99,0x66)
 	}
 
 	pixelList = [[]]
@@ -625,7 +628,8 @@ def CheckIfPixelInPalette(pixel):
 		28: (0x00,0xc4,0x00),
 		29: (0xff,0xb5,0x84),
 		30: (0xbe,0xff,0xe9),
-		31: (0xb7,0x00,0x46)
+		31: (0xb7,0x00,0x46),
+		32: (0xff,0x99,0x66)
 	}
 
 	for i in palette:

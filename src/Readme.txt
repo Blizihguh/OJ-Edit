@@ -1,4 +1,4 @@
-Thank you for downloading OJ Edit v2.0!
+Thank you for downloading OJ Edit v2.1!
 For usage information, see the "How to Use" option under the Misc menu in the program itself.
 
 Credits:
@@ -20,6 +20,7 @@ Example Fields:
 > (New in 2.0!) Pigskin Co-Op by Blizihguh - This asymmetric map branches twice on each side, with each branch prominently featuring certain tiles more. You can try to go on the path that has the tiles you want, but beware: each path has different dangers as well!
 > (New in 2.0!) Crossroad Co-Op by Hakari - This map features two long roads that cross each other without actually intersecting. Use the long paths to cut across the main loop, or use the ice paths on the outside to cut the trip short!
 > (New in 2.0!) Down the Drain Co-Op by Hakari - With the move panels on the outside, and the tight loop around the center, ambushing the boss has gotten a bit easier. But watch out -- the boss can use the move panels and warp to get away fast!
+> (New in 2.1!) Advanced Town by Blizihguh - This high-speed map is designed especially for the new RPG game mode! Take advantage of the Warp Move and Ice tiles to quickly navigate between sections of the map!
 
 Mapmaking Tips:
 > When entering a warp, the type of warp you enter determines what happens when you come out, not the type of warp you come out of. For example, if you enter a x2 Move Warp and it warps you to a regular warp, you will instantly roll again with two dice.

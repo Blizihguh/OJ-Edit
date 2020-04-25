@@ -1,4 +1,5 @@
 Normal Mode:
+	Beginner Town -> Advanced Town
 	Farm -> Ronin
 	Frost Cave -> Down the Drain
 	Highway Heist -> Gotham
@@ -11,6 +12,6 @@ Normal Mode:
 
 Co-op Mode:
 	Farm Co-op -> Crossroad Co-op
-	Highway Heist Co-op -> Pigskin
+	Highway Heist Co-op -> Pigskin Co-op
 	Planet Earth Co-op -> Twister Co-op
 	Training Program Co-op -> Down the Drain Co-op

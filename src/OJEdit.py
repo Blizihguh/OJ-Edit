@@ -55,24 +55,31 @@ mapsTable = {
 	"field_vortex.fld": [968, False, "Vortex", None],
 	"field_war.fld": [968, False, "Warfare", None],
 	# 11x11 Coop
+	"field_clover_co.fld": [968, True, "Clover", None],
+	"field_icyhideout_co.fld": [968, True, "Icy Hideout", None],
 	"field_nightflight_co.fld": [968, True, "Night Flight", None],
 	"field_pudding_co.fld": [968, True, "Pudding Chase", None],
 	"field_workshop_co.fld": [968, True, "Santa's Workshop", None],
 	"field_wander_co.fld": [968, True, "Space Wanderer", None],
+	"field_tomomo_co.fld": [968, True, "Tomomo's Abyss", None],
 	"field_vortex_co.fld": [968, True, "Vortex", None],
 	# 13x13 Normal
+	"field_beginnertown.fld": [1352, False, "Beginner Town", None],
 	"field_christmas.fld": [1352, False, "Christmas Miracle", None],
 	"field_frost.fld": [1352, False, "Frost Cave", None],
 	"field_lagoon.fld": [1352, False, "Lagoon Flight", None],
 	"field_island.fld": [1352, False, "Treasure Island", None],
 	"field_islandnight.fld": [1352, False, "Treasure Island (Night)", None],
 	"field_oceandive.fld": [1352, False, "Ocean Dive", None],
+	"field_oversea.fld": [1352, False, "Over the Sea", None],
 	# 13x13 Coop
 	"field_cyberspace.fld": [1352, True, "Cyberspace", None],
+	"field_frost_co.fld": [1352, True, "Frost Cave", None],
 	"field_lagoon2.fld": [1352, True, "Lagoon Flight", None],
 	"field_island_co.fld": [1352, True, "Treasure Island", None],
 	"field_islandnight_co.fld": [1352, True, "Treasure Island (Night)", None],
 	"field_oceandive_co.fld": [1352, True, "Ocean Dive", None],
+	"field_oversea_co.fld": [1352, True, "Over the Sea", None],
 	# 15x15 Normal
 	"field_farm.fld": [1800, False, "Farm", None], 
 	"field_highway.fld": [1800, False, "Highway Heist", None],
@@ -95,11 +102,14 @@ mapsTable = {
 	"field_training_co.fld": [1800, True, "Training Program", None],
 	"field_forest_co.fld": [1800, True, "Witch Forest", None],
 	# Misc Normal
+	"field_darkcitadel.fld": [1152, False, "Dark Citadel (12x12)", None],
 	"field_starship.fld": [1152, False, "Starship (12x12)", None],
 	"field_shipyard.fld": [1040, False, "Shipyard (13x10)", None],
 	"field_winter.fld": [1568, False, "White Winter (14x14)", None],
 	# Misc Coop
-	"field_shipyard_co.fld": [1248, True, "Shipyard (13x12)", None]
+	"field_shipyard_co.fld": [1248, True, "Shipyard (13x12)", None],
+	"field_starship_co.fld": [1568, False, "Starship (14x14)", None],
+	"field_winter_co.fld": [1568, False, "White Winter (14x14)", None]
 }
 graphicsList = [
 	"aurora.dat", 
@@ -135,7 +145,10 @@ graphicsList = [
 	"workshop_l.dat", # New in Crossed Christmases update
 	"cyberspace_l.dat", "cyberspace_o.dat", # New in 5th Anniversary update
 	"poppo_h.dat", "poppo_l.dat", # New in 5th Anniversary update
-	"oceandive_h.dat", "oceandive_l.dat" # New in Summer 2019 update
+	"oceandive_h.dat", "oceandive_l.dat", # New in Summer 2019 update
+	"overthesea_uh.dat", "overthesea_l.dat", "overthesea_h.dat", "overthesea_clouds.dat", # New at some point
+	"darkcitadel_l.dat", "darkcitadel_h2.dat", "darkcitadel_h.dat", # New at some point
+	"field_rpg.xbin", "field_rpg_tiles.dat", "field_rpg_grass.dat", "field_rpg.dat" # New in RPG update
 ]
 fieldSizeTable = {
 	968: 88,
@@ -383,7 +396,7 @@ def checksum(filename):
 sourceList = (
 	("utils.py", "5b83258016f94289557fe9522270132cbfa3c8334d29a1cccec8175f0eaca217"), 
 	("dds-reader.py", "96e4e815c8b0f41657be40b4b8a4f86855b058348ae046bfff3016f8e33b1d17"), 
-	("fields.py", "8aeec57280455a8e88d0d6de087df21a50dddaba422912e30ee60c797b99bb4b"), 
+	("fields.py", "6081f8af197d57fc4d6658966b7aa87646823f6070062ec90e0e9afed05d9049"), 
 	("textures.py", "bcd3b161fbd2d45649cc72e5d9a8b7ddace388044e2a60ab60053de43e39a7bd"), 
 	("gui-fields.py", "01bc862f4f1082f61340f35a6fe0825fc3741e68e6ee5112237e727dec6e3392"), 
 	("gui-textures.py", "1567497a0798646e11f70bc606485613c4f96bb2a3e9a88934e5bdc5184e62bb"),
