@@ -1,4 +1,4 @@
-Thank you for downloading OJ Edit v2.1!
+Thank you for downloading OJ Edit v2.1.1!
 For usage information, see the "How to Use" option under the Misc menu in the program itself.
 
 Credits:

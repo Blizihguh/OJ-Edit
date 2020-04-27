@@ -396,7 +396,7 @@ def checksum(filename):
 sourceList = (
 	("utils.py", "5b83258016f94289557fe9522270132cbfa3c8334d29a1cccec8175f0eaca217"), 
 	("dds-reader.py", "96e4e815c8b0f41657be40b4b8a4f86855b058348ae046bfff3016f8e33b1d17"), 
-	("fields.py", "6081f8af197d57fc4d6658966b7aa87646823f6070062ec90e0e9afed05d9049"), 
+	("fields.py", "2a94fa491d70af06d29cf7de29598b4f191fef7c91ba2cafca29423c01bc59bf"), 
 	("textures.py", "bcd3b161fbd2d45649cc72e5d9a8b7ddace388044e2a60ab60053de43e39a7bd"), 
 	("gui-fields.py", "01bc862f4f1082f61340f35a6fe0825fc3741e68e6ee5112237e727dec6e3392"), 
 	("gui-textures.py", "1567497a0798646e11f70bc606485613c4f96bb2a3e9a88934e5bdc5184e62bb"),
