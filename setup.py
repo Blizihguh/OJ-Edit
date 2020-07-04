@@ -33,7 +33,7 @@ executables = [
 build_exe_options = {"packages": ["numpy"], "include_files": includefiles}
 
 setup(name='OJ Edit',
-      version='2.0',
+      version='2.1.1',
       description='OJ Editing Tool',
       executables=executables,
       options = {"build_exe": build_exe_options},
